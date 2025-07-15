@@ -406,7 +406,25 @@
     <script src="/js/main.js" defer></script>
 </head>
 <body class="bg-white text-gray-900 antialiased">
-    
+<script type="module">
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+apiKey: "AIzaSyDCFGIOewMHhiSJaQR2e_bYK71mkcKquRQ",
+authDomain: "earwigcontroloklahomacityok.firebaseapp.com",
+projectId: "earwigcontroloklahomacityok",
+storageBucket: "earwigcontroloklahomacityok.firebasestorage.app",
+messagingSenderId: "393373612883",
+appId: "1:393373612883:web:2ba784f2563e66c510ffa6"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+</script>
     <header class="bg-gradient-to-r from-indigo-600 to-red-600 text-white shadow-2xl sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center py-4">
